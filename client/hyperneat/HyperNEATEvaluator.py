@@ -193,9 +193,6 @@ class HyperNEATEvaluator:
             z_trace = r.get("trace").get("z")
             accumulated_displacement += float(z_trace.get("final")) - float(z_trace.get("initial"))
 
-            print("Displacements: ", accumulated_displacement / len(catheter_morphology_list))
-            print("+++++++++++++")
-
         return accumulated_displacement / len(catheter_morphology_list)
 
     # This function generates a .vxa file of the fittest phase offset found by HyperNEAT algorithm.
