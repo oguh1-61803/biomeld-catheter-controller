@@ -1,4 +1,4 @@
-> # Design of controller for biohybrid actuators of catheters
+> # Design of controllers for biohybrid actuators of catheters
 
 This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and Hypercube-based Neuroevolution of Augmenting Topologies (HyperNEAT) to design controllers of biohybird actuators (BHAs) focused on catheters. In order to represent and evaluate the controllers generated, BHA morphologies and the effect induced by the controllers are simulated in a physics engine: Voxelyze, which can be found in the following GitHub repository: 
 
