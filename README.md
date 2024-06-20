@@ -10,6 +10,7 @@ To adapt the physics engine to the dynamics of BHAs, two modifications to the so
 
 * https://github.com/Antisthenis/reconfigurable_organisms/commit/dfcf21dcd0670a0f77d94e826563d09ed82a3786#diff-eed874d9aea4ad5f133265b296188a268bcc85f6f610b9c03ca3ada556cf88f5
 
+For benchmark purposes, a standard genetic algorithm (SGA) is utilised as a baseline. The source code of the SGA is also included.
 
 > **Architecture**
 
@@ -21,8 +22,8 @@ This software was written in Python 3.11 on the client side and Python 3.10 on t
 
 The source code of this repository is split into two:
 
-* _client_: code related to client side.
-* _server_: code related to the server side.
+* _client_: code related to client side. It contains the implementation related to NEAT, HyperNEAT, and SGA.
+* _server_: code related to the server side. It contains the implementation related to Voxelyze.
 
 The packages used for the client and server sides are listed in the file called "requirements.md".
 
