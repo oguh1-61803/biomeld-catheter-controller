@@ -18,5 +18,10 @@ The code related to the server side was written in **Python 3.10**.
 
 > Important
 
-* The executable called "voxelyze" in the path _server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative systmem, you need to compile your own executable using the code contained in this repository: https://github.com/skriegman/reconfigurable_organisms.
+* The executable called "voxelyze" in the path _server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative system, you need to compile your own executable using the code contained in the following repository:
+  
+  https://github.com/skriegman/reconfigurable_organisms.
+  
+* Don't forget to consider the two modifications to the source code of the physics engine mentioned in the README file!
+
 * Lines 18-22 of the "Main.py" file, provide a suggestion regarding the server deployment.
