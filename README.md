@@ -23,8 +23,8 @@ This software was written in Python 3.11 on the client side and Python 3.10 on t
 
 The source code of this repository is split into two:
 
-* _client_: Code related to client side.
-* _server_: Code related to the server side.
+* _client_: code related to client side.
+* _server_: code related to the server side.
 
 The packages used for the client and server sides are listed in the file called "requirements.md".
 
