@@ -29,4 +29,5 @@ The packages used for the client and server sides are listed in the file called 
 
 > **Important Notice**
 
-The code provided in this repository was used as part of an academic research documented in ..._coming soon_. 
+The code provided in this repository was used as part of an academic research documented in https://www.scitepress.org/Link.aspx?doi=10.5220/0012919300003837
+and ... 
