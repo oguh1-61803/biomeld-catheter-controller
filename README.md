@@ -1,10 +1,10 @@
 > # Design of controllers for biohybrid actuators of catheters
 
-This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and Hypercube-based Neuroevolution of Augmenting Topologies (HyperNEAT) to design controllers of biohybird actuators (BHAs) focused on catheters. In order to represent and evaluate the controllers generated, BHA morphologies and the effect induced by the controllers are simulated in a physics engine: Voxelyze, which can be found in the following GitHub repository: 
+This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and Hypercube-based Neuroevolution of Augmenting Topologies (HyperNEAT) to design controllers of soft actuator morphologies (SAMs) - sometimes called biohybird actuators (BHAs) - focused on catheters. In order to represent and evaluate the controllers generated, BHA morphologies and the effect induced by the controllers are simulated in a physics engine: Voxelyze, which can be found in the following GitHub repository: 
 
 https://github.com/skriegman/reconfigurable_organisms.
 
-To adapt the physics engine to the dynamics of BHAs, two modifications to the source code were performed. The modifications can be found in:
+To adapt the physics engine to the dynamics of SAMs, two modifications to the source code were performed. The modifications can be found in:
 
 * https://github.com/Antisthenis/reconfigurable_organisms/commit/80ae5d9af6f381d565fa4885ba1672f2813a8a28
 
