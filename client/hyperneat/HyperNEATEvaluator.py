@@ -151,8 +151,8 @@ class HyperNEATEvaluator:
                 for coordinate in layer_data.keys():
 
                     material_id = layer_data.get(coordinate)
-                    cppn_input = [coordinate[0], coordinate[1], coordinate[2], material_id]
-                    offset_value = substrate.activate(cppn_input)
+                    substrate_input = [coordinate[0], coordinate[1], coordinate[2], material_id]
+                    offset_value = substrate.activate(substrate_input)
 
                     if offset_value[0] >= self.POSITIVE_MAPPING_REFERENCE:
 
