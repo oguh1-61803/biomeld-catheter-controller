@@ -14,7 +14,7 @@ For benchmark purposes, a standard genetic algorithm (SGA) is utilised as a base
 
 > **Architecture**
 
-Since the evolutionary process implies a simulation task, the runtime takes significant time. This software has been designed to reduce the time spent finding suitable controllers for SAMs. It uses concurrency and was designed under a client-server architecture. Generally, the genetic algorithm (GA) is executed on the client side, whereas the fitness function is executed on the server side.
+Since the evolutionary process implies a simulation task, the runtime takes significant time. This software has been designed to reduce the time spent finding suitable controllers for SAMs. It uses concurrency and was designed under a client-server architecture. Generally, the SGA is executed on the client side, whereas the the core of the fitness function (Voxelyze) is executed on the server side.
 
 This software was written in Python 3.11 on the client side and Python 3.10 on the server side.
 
