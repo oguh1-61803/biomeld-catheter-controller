@@ -23,4 +23,4 @@ The code related to the server side was written in **Python 3.10**.
   
 * Don't forget to consider the two modifications to the source code of the physics engine mentioned in the README file!
 
-* Lines 18-22 of the "Main.py" file, provide a suggestion regarding the server deployment.
+* Lines 18-22 of the "Main.py" file of the server code provide a suggestion regarding the server deployment.
