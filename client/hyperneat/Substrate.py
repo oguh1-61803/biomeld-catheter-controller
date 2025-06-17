@@ -19,7 +19,7 @@ class Substrate:
         self.hidden_layers = []
         self.input_layer = []
 
-    # This function inialises the substrate.
+    # This function initialises the substrate.
     def initialise_substrate(self, substrate_data):
 
         self.__initialise_neurons(substrate_data)
