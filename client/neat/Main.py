@@ -24,7 +24,7 @@ if __name__ == '__main__':
     ga_data = {
 
         "number_of_individuals": 50,
-        "number_of_generations": 15,
+        "number_of_generations": 200,
         "reproduction_ratio": 0.2,
         "individuals_in_elitism": 1
     }
