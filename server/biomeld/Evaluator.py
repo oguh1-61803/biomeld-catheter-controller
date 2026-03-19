@@ -120,7 +120,7 @@ class Evaluator:
             o = etree.SubElement(self.root.find("VXC").find("Structure").find("PhaseOffset"), "Layer")
             o.text = etree.CDATA(offsets)
 
-    # This method counts the number of voxels that compose a BHM morphology.
+    # This method counts the number of voxels that compose a SAM.
     def __count_number_of_voxels(self):
 
         for layer in self.root.find("VXC").find("Structure").find("Data"):
@@ -162,7 +162,7 @@ class Evaluator:
 
             return True
 
-    # This method sets the number of voxels to zero and delete the data related to the BHM morphology.
+    # This method sets the number of voxels to zero and delete the data related to the SAM.
     def __clean_data(self):
 
         for child in self.root.find("VXC").find("Structure").find("Data"):
