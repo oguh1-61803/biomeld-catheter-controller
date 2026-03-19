@@ -32,6 +32,5 @@ The packages used for the client and server sides are listed in the file called 
 The code provided in this repository was used as part of an academic research documented in:
 
 * https://www.scitepress.org/Link.aspx?doi=10.5220/0012919300003837
-* https:
 
 Furthermore, this project has received funding from the European Union’s Horizon Europe Research and Innovation programme under grant agreement No. 101070328.UWE researchers were funded by the UK Researchand Innovation grant No. 10044516. 
